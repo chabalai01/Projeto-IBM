@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    height: 500vh;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0px;
+}
+
+.flex{
+   display: flex; 
+   align-items: center;
+   justify-self:space-between;
+}
+
+header{
+    width: 100%;
+    padding: 60px 4%;
+    position:fixed;
+    top: 0;
+    left: 0;
+    transition: 1s;
+    color: #eedfdf;
+    z-index:1000;
+}
+
+header.rolagem{
+background-color: #fff;
+padding: 20px 4%;
+}
+
+header.rolagem a, header.rolagem i{
+    color: black;
+}
+
+header i{
+font-size: 30px;
+color: #fff;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-flex;
+    margin: 0 45px;
+}
+
+header ul li a{
+    color:#090606;
+    text-decoration: none;
+    margin-top:  25px;
+}
+
+.banner{
+    height: 100vh;
+    background-image:url(images/leadspace.png);
+    background-position: center;
+    mask-repeat: no-repeat;
+    background-size:cover;
+}
+
+.banner{
+    font-size: 4em;
+}
+.banner h2{
+    color: #171514;
+    margin-top: 2%;
+}
+
+.h2center{
+    position: relative;
+}
+
+
+.banner h6 ul a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #171514;
+    position: inline-block;
+    height: 200px;
+    width: 350px;
+    bottom: 50px;
+    
+}
